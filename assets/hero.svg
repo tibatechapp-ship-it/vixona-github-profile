@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="TibaTech Vixona banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/><stop offset="0.5" stop-color="#818cf8"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.15" r="0.9">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+  <g opacity="0.14" stroke="#38bdf8" stroke-width="1">
+    <circle cx="1080" cy="60" r="34" fill="none"/>
+    <circle cx="1080" cy="60" r="60" fill="none"/>
+    <circle cx="1080" cy="60" r="90" fill="none"/>
+  </g>
+  <rect x="60" y="96" width="120" height="6" rx="3" fill="url(#acc)"/>
+  <text x="60" y="160" font-family="'Segoe UI','Noto Sans Arabic',system-ui,sans-serif" font-size="52" font-weight="800" fill="#f8fafc">TibaTech · المحفظة التقنية</text>
+  <text x="62" y="204" font-family="'Segoe UI','Noto Sans Arabic',system-ui,sans-serif" font-size="23" fill="#94a3b8">Vixona Technologies — أدوات مفتوحة المصدر، عربية أولاً، محكومة ببوابات جودة آلية</text>
+  <text x="62" y="258" font-family="'Segoe UI',system-ui,sans-serif" font-size="15" fill="#64748b">nexus-core · Rasan · LifeLink · Raqib · Pharma SDL · NexHub</text>
+</svg>
