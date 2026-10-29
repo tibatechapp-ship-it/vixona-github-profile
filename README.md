@@ -108,13 +108,13 @@
 <!-- LAST-UPDATED:START -->
 | المشروع | آخر دفعة (UTC) | فرع نشط |
 |---|---|---|
-| Rasan | 2026-10-29 | ux-fixes ← [PR#3](https://github.com/tibatechapp-ship-it/Rasan/pull/3) |
-| lifelink-app | 2026-10-29 | ux-fixes ← [PR#4](https://github.com/tibatechapp-ship-it/lifelink-app/pull/4) |
-| pharma-sdl | 2026-10-29 | ux-fixes ← [PR#1](https://github.com/tibatechapp-ship-it/pharma-sdl/pull/1) |
-| nexhub | 2026-10-29 | ux-fixes ← [PR#1](https://github.com/tibatechapp-ship-it/nexhub/pull/1) |
+| Rasan | 2026-10-29 | main |
+| lifelink-app | 2026-10-29 | main |
+| pharma-sdl | 2026-10-29 | main |
+| nexhub | 2026-10-29 | main |
 | nexus-core | 2026-10-29 | main |
-| chess-cli | 2026-10-28 | main |
-| raqib | 2026-10-28 | main |
+| chess-cli | 2026-10-29 | main |
+| raqib | 2026-10-29 | main |
 <!-- LAST-UPDATED:END -->
 
 > 🤖 هذا الجدول يتحدّث **تلقائياً** كل 6 ساعات عبر GitHub Actions (`.github/workflows/update-readme.yml`) — لا تعدّله يدوياً.
