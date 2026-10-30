@@ -29,6 +29,26 @@
 | **[NexHub](https://github.com/tibatechapp-ship-it/nexhub)** | منصة Git محلية عربية — بلا حساب، بلا سحابة | 🛠️ Developer Tool | `v0.3.0` |
 | **[Chess CLI](https://github.com/tibatechapp-ship-it/chess-cli)** | شطرنج الطرفية ببايثون نقي + واجهة ويب FastAPI — وُلد من Nexus Studio | ♟️ Showcase | `0.1.0` |
 
+### 🎯 التركيز الحالي — النواة الخمسة | Core Five
+
+> مراجعة محفظة 2026-10-31 خلصت إلى: **القيمة في التركيز**. هذه الخمسة تحصل على الجهد الهندسي الكامل؛ ما عداهم إما داعم أو مؤرشف.
+
+| الترتيب | المشروع | فكرة | تنفيذ | سوق | جاهزية | المركّب | الفجوة الوحيدة نحو المنتج |
+|---|---|---|---|---|---|---|---|
+| 1 | **Nexus Core** | 9.5 | 8.5 | 8.5 | 6.5 | **8.3** | لوحة تحكم + trace logs + benchmarks + demo |
+| 2 | **Rasan — رسن** | 9.0 | 8.5 | 8.0 | 6.0 | **7.9** | نشر على المتاجر (APK/AAB) + MLS الجماعي + اختبار ميداني |
+| 3 | **LifeLink** | 8.5 | 7.5 | 7.5 | 5.5 | **7.3** | مطابقة متبرعين جغرافية + وثائق ثقة/خصوصية للمشغّل |
+| 4 | **NexHub** | 8.0 | 7.5 | 7.0 | 5.5 | **7.0** | قرار هوية المنتج: **مساحة عمل تطوير محلية عربية** ثم UX للسرد |
+| 5 | **BASIRAH-AI — بصيرة** | 8.5 | 6.5 | 7.5 | 5.0 | **6.9** | التحول من pipeline إلى platform: بحث دلالي + لوحة بيانات وصفية |
+
+> **منهجية الدرجات**: كل رقم خلفه دليل قابل للتحقق (عدد الاختبارات، حالة CI، الميزات الموثقة في CHANGELOG) — راجع تقرير المراجعة الكامل. التنفيذ يشمل: `nexus-core` (CI ثلاثي + 173 مدخلاً في tests/ + 1,800+ اختبار آلي وفق وصف المنظمة)، `Rasan` (312 اختبار: 265 خادم + 47 جوال)، `lifelink-app` (70 اختبار + ترحيلات idempotent على Postgres حقيقي)، `nexhub` (analyze صفر + 38 اختبار + نشر Pages)، `BASIRAH-AI` (Docker stack كامل + OCR/ML).
+
+### 🧱 الطبقات الأخرى | Other Tiers
+
+- **درجة ثانية قريبة من النواة**: [Raqib](https://github.com/tibatechapp-ship-it/raqib) (E2E + Integration Postgres أخضر + ADRs — ينقصه قصة سوق) و[Pharma SDL](https://github.com/tibatechapp-ship-it/pharma-sdl) (إصدارات سطح مكتب 3 منصات — يحتاج فريق بحث وبيانات).
+- **مكوّنات داعمة**: [qubhub telemetry](https://github.com/tibatechapp-ship-it/qubhub) (خادم إحصاءات يحترم الخصوصية — جزء من منظومة QubHub لا منتج مستقل).
+- **أرشيف موحّد**: `wifi-chat` → وحدة sila داخل رسن · `NexunGu` → qubhub · `tyb-zyv-ai` → nexus-core · `novasphere` مؤرشف · `olmo` مُدمج في NexHub · `seekfeek` fork لمرجع DeepSeek Harness.
+
 ### 📊 شارات المشاريع | Project Badges
 
 | المشروع | CI | الترخيص | الإصدار | التقنية |
