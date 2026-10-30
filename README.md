@@ -110,10 +110,10 @@
 |---|---|---|
 | Rasan | 2026-10-30 | main |
 | lifelink-app | 2026-10-29 | main |
-| pharma-sdl | 2026-10-29 | main |
+| pharma-sdl | 2026-10-30 | main |
 | nexhub | 2026-10-30 | main |
 | nexus-core | 2026-10-29 | main |
-| chess-cli | 2026-10-29 | main |
+| chess-cli | 2026-10-30 | main |
 | raqib | 2026-10-29 | main |
 <!-- LAST-UPDATED:END -->
 
