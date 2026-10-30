@@ -114,7 +114,7 @@
 | nexhub | 2026-10-30 | main |
 | nexus-core | 2026-10-29 | main |
 | chess-cli | 2026-10-30 | main |
-| raqib | 2026-10-29 | main |
+| raqib | 2026-10-30 | main |
 <!-- LAST-UPDATED:END -->
 
 > 🤖 هذا الجدول يتحدّث **تلقائياً** كل 6 ساعات عبر GitHub Actions (`.github/workflows/update-readme.yml`) — لا تعدّله يدوياً.
