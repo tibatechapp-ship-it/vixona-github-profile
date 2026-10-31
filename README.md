@@ -28,6 +28,7 @@
 | **[Pharma SDL](https://github.com/tibatechapp-ship-it/pharma-sdl)** | منصة عربية لتعليم واكتشاف الأدوية بالذكاء الاصطناعي | 🧬 Biotech Edu | `sprint 8` |
 | **[NexHub](https://github.com/tibatechapp-ship-it/nexhub)** | منصة Git محلية عربية — بلا حساب، بلا سحابة | 🛠️ Developer Tool | `v0.3.0` |
 | **[Chess CLI](https://github.com/tibatechapp-ship-it/chess-cli)** | شطرنج الطرفية ببايثون نقي + واجهة ويب FastAPI — وُلد من Nexus Studio | ♟️ Showcase | `0.1.0` |
+| **[Tayf — طيف](https://github.com/tibatechapp-ship-it/tayf)** | استوديو توليد فيديو بالذكاء الاصطناعي — عربي أولاً، بمراحل موثقة بالإثبات | 🎬 AI Video | `stage 3` |
 
 ### 🎯 التركيز الحالي — النواة الخمسة | Core Five
 
@@ -99,6 +100,7 @@
 | **Pharma SDL** | [![Tests](https://github.com/tibatechapp-ship-it/pharma-sdl/actions/workflows/tests.yml/badge.svg)](https://github.com/tibatechapp-ship-it/pharma-sdl/actions/workflows/tests.yml) | [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tibatechapp-ship-it/pharma-sdl/blob/main/LICENSE) | — | ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) |
 | **NexHub** | [![CI](https://github.com/tibatechapp-ship-it/nexhub/actions/workflows/ci.yml/badge.svg)](https://github.com/tibatechapp-ship-it/nexhub/actions/workflows/ci.yml) [![Build](https://github.com/tibatechapp-ship-it/nexhub/actions/workflows/build.yml/badge.svg)](https://github.com/tibatechapp-ship-it/nexhub/actions/workflows/build.yml) | [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tibatechapp-ship-it/nexhub/blob/main/LICENSE) | [![Release](https://img.shields.io/github/v/release/tibatechapp-ship-it/nexhub)](https://github.com/tibatechapp-ship-it/nexhub/releases) | ![Flutter](https://img.shields.io/badge/Flutter-%E2%89%A53.24-02569B?logo=flutter&logoColor=white) |
 | **Chess CLI** | [![CI](https://github.com/tibatechapp-ship-it/chess-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/tibatechapp-ship-it/chess-cli/actions/workflows/ci.yml) | [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tibatechapp-ship-it/chess-cli/blob/main/LICENSE) | — | ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white) |
+| **Tayf — طيف** | [![CI](https://github.com/tibatechapp-ship-it/tayf/actions/workflows/ci.yml/badge.svg)](https://github.com/tibatechapp-ship-it/tayf/actions/workflows/ci.yml) | [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/tibatechapp-ship-it/tayf/blob/main/LICENSE) | — | ![FastAPI](https://img.shields.io/badge/FastAPI%20%2B%20React-009688?logo=fastapi&logoColor=white) |
 
 ---
 
