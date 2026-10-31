@@ -113,12 +113,12 @@
 
 ---
 
-## 7) لوحة قيادة الأسبوع القادم (قابلة للتحقق غداً)
+## 7) لوحة قيادة الأسبوع الأول — منجزة ومُتحقق منها في CI (2026-10-31)
 
-- [ ] nexus-core: اختبارات `/dashboard` الخمسة الأولى خضراء
-- [ ] Rasan: workflow يبني AAB بنجاح على tag تجريبي
-- [ ] lifelink: أول 5 اختبارات haversine خضراء
-- [ ] nexhub: README الجديد مدفوع + أول اختبار onboarding
-- [ ] BASIRAH: مجموعة التقييم الذهبية (20 استعلاماً) مرفوعة
+- [x] nexus-core: صفحة `/dashboard` قراءة-فقط + `/api/dashboard` (وكلاء نشطون، مهام جارية، آخر قرارات المجلس) — **8 اختبارات httpx، البوابة الكاملة 3,742 خضراء** ([975a6e7](https://github.com/tibatechapp-ship-it/nexus-core/commit/975a6e7))
+- [x] Rasan: **workflow يبني AAB بنجاح على tag تجريبي + artifact 49MB** ([v0.0.5-aab-test](https://github.com/tibatechapp-ship-it/Rasan/actions/workflows/aab.yml)) — وكشف وأصلح 3 عيوب بناء كامنة (Kotlin DSL، desugaring، compileSdk 34) + حذف اعتمادية ميتة
+- [x] lifelink: **مطابقة جغرافية haversine كاملة** (ABO/Rh × أقرب × 56 يوماً) + `/matches` بلا PII — **16 اختباراً (70→86)** + ترحيل ذهاب-وعودة مثبت ([85a9e8b](https://github.com/tibatechapp-ship-it/lifelink-app/commit/85a9e8b))
+- [x] nexhub: **جولة onboarding 5 خطوات** مع توجيه أول تشغيل — **7 اختبارات widget (38→45) + analyze صفر** ([31df6e9](https://github.com/tibatechapp-ship-it/nexhub/commit/31df6e9))
+- [x] BASIRAH: **مجموعة التقييم الذهبية (20 استعلاماً) مرفوعة** + Recall@5/MRR بحساب فعلي = **0.975/0.975** مع job CI يفشل تحت عتبة 0.70/0.50 ([f0a3458](https://github.com/tibatechapp-ship-it/BASIRAH-AI/commit/f0a3458))
 
-> عند اكتمال اللوحة أعلاه، تُحدَّث [scorecard.md](scorecard.md) بأرقام الجاهزية الجديدة — والقاعدة باقية: **لا رقم بلا دليل**.
+> **اللوحة مكتملة 5/5 في يوم واحد.** التالي حسب الجدول: أسبوع 2 — trace logs المعيارية (nexus-core)، صفحة demo عامة (Rasan)، حزمة ثقة المشغّل (lifelink)، quickstart مصوّر (nexhub)، لوحة البيانات الوصفية (BASIRAH). وعند اكتمال الأسبوع الثاني تُحدَّث [scorecard.md](scorecard.md) بأرقام الجاهزية الجديدة — والقاعدة باقية: **لا رقم بلا دليل**.
