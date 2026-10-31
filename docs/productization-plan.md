@@ -125,12 +125,12 @@
 
 ---
 
-## 8) لوحة الأسبوع الثاني — تقدّم مباشر
+## 8) لوحة الأسبوع الثاني — مكتملة 5/5، كل معلم بدليل CI أخضر (2026-10-31)
 
-- [x] nexus-core: **trace logs معيارية** — `src/observability/trace.py` (stdlib فقط، خيط-آمن، best-effort، تدوير 5MiB، بلا PII): كل تشغيل وكيل/مجلس/موجّه يكتب سطر JSON بالحقول الإلزامية `ts/agent/tool/duration_ms/outcome` في `runs/trace.jsonl` + ربط نقاط النهاية الخمس + `/api/trace/recent` + قسم أثر في `/dashboard` + `make trace-tail` — **20 اختبار انحدار (عقد الحقول، تزامن 8×25، تدوير، أسطر تالفة، ربط ok/error/400)؛ البوابة الكاملة خضراء: 3,762 passed / 28 skipped، coverage ≥95%** (`make check` كاملة) — commit [`eb6ba97`](https://github.com/tibatechapp-ship-it/nexus-core/commit/eb6ba97)
-- [ ] Rasan: صفحة demo عامة + E2E (زائر بحساب demo يرسل رسالة)
-- [ ] lifelink: حزمة ثقة المشغّل `docs/trust/` (سياسة بيانات + احتفاظ + DPIA مبسطة)
-- [ ] nexhub: `docs/quickstart-ar.md` مصوّر (Golden path)
-- [ ] BASIRAH: لوحة البيانات الوصفية (عدد الوثائق، الكيانات، توزيع المواضيع، بحث تفاعلي)
+- [x] nexus-core: **trace logs معيارية** — `src/observability/trace.py` (stdlib فقط، خيط-آمن، best-effort، تدوير 5MiB، بلا PII): كل تشغيل وكيل/مجلس/موجّه يكتب سطر JSON بالحقول الإلزامية `ts/agent/tool/duration_ms/outcome` في `runs/trace.jsonl` + ربط نقاط النهاية الخمس + `/api/trace/recent` + قسم أثر في `/dashboard` + `make trace-tail` — **20 اختبار انحدار؛ البوابة الكاملة خضراء: 3,762 passed / 28 skipped، coverage ≥95%** — CI ✅ + Tests ✅ على [`eb6ba97`](https://github.com/tibatechapp-ship-it/nexus-core/commit/eb6ba97)
+- [x] Rasan: **صفحة التجربة العامة + E2E حقيقي** — خادم حقيقي بقاعدة مؤقتة + Chromium: زائر يدخل ويُرسل رسالة مشفرة (`e2e/` معزولة، workflow مستقل `demo-e2e.yml`) — demo-e2e ✅ + ci ✅ على [`a9ea68b`](https://github.com/tibatechapp-ship-it/Rasan/commit/a9ea68b) (وسبق أن تقدّم المشروع لأسبوعه الثالث: بنية MLS + v1.1.0 بثلاث بوابات خضراء)
+- [x] lifelink: **حزمة ثقة المشغّل + `/admin/stats`** — `docs/trust/` (5 ملفات: سياسة بيانات بـ«ما لا نجمعه» العشرة البنود الإلزامية، احتفاظ وحذف، DPIA مبسطة بصدق، مسؤوليات المشغّل) + نقطة إحصاءات للـadmin فقط (401/403/200) بزمن استجابة متوسط صادق عبر ترحيل `d8e9f0a1b2c3` (fulfilled_at، ذهاب-وعودة مثبت) — **12 اختباراً جديداً (86→98/98)**، CI ✅ على [`14cafcc`](https://github.com/tibatechapp-ship-it/lifelink-app/commit/14cafcc)
+- [x] nexhub: **البدء السريع المصوّر + إصدار بحزم مرفقة آلياً** — `docs/quickstart-ar.md` بمخطط SVG عربي (خطوات مطابقة لجولة onboarding الفعلية) + حرس وثائق في وظيفة `docs` بـCI (وجود/صور/روابط) + وظيفة `release` ترفق APK×3 وحزم سطح المكتب على كل tag — CI ✅ (بما فيها docs) + Release v1.1.0 ✅ بـ**6 أصول** على [`b87f49e`](https://github.com/tibatechapp-ship-it/nexhub/commit/b87f49e) (ملاحظة صدق: الخطة قالت v0.4 لكن v1.0.0 سبقتها فكان الرقم الصحيح v1.1.0 — الأول فشل بكشف `gh` بلا checkout وأصلح في نفس اليوم)
+- [x] BASIRAH: **لوحة البيانات الوصفية** — `/dashboard` عربية RTL صفر-JS (العدد، توزيع المواضيع بأشرطة، التغطية الدلالية، أحدث الوثائق) + `/api/dashboard/stats` + بحث تفاعلي يعلن نوعه بصدق (دلالي عبر pgvector / نصي معلن) — **10 اختبارات (52/52)** مع عزل حالة وEscape/XSS، ci ✅ + Python Package ✅ على [`25c0b2a`](https://github.com/tibatechapp-ship-it/BASIRAH-AI/commit/25c0b2a)
 
-> **قاعدة اللوحة نفسها**: كل عنصر يُعلَّم ✓ فقط بدليل CI قابل للتشغيل — الأرقام أعلاه من تشغيل محلي مطابق لبيئة CI (`make check`)، ويتحول الدليل إلى CI أخضر مباشرة عند دفع commit `eb6ba97`.
+> **اللوحة مكتملة 5/5 مرة ثانية — والأسبوع الثالث انطلق فعلاً في رسن** (بنية MLS + release v1.1.0). عند مراجعة اللوحة التالية تُحدَّث [scorecard.md](scorecard.md) بأرقام الجاهزية الجديدة — والقاعدة باقية: **لا رقم بلا دليل**.
