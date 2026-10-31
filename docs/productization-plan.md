@@ -122,3 +122,15 @@
 - [x] BASIRAH: **مجموعة التقييم الذهبية (20 استعلاماً) مرفوعة** + Recall@5/MRR بحساب فعلي = **0.975/0.975** مع job CI يفشل تحت عتبة 0.70/0.50 ([f0a3458](https://github.com/tibatechapp-ship-it/BASIRAH-AI/commit/f0a3458))
 
 > **اللوحة مكتملة 5/5 في يوم واحد.** التالي حسب الجدول: أسبوع 2 — trace logs المعيارية (nexus-core)، صفحة demo عامة (Rasan)، حزمة ثقة المشغّل (lifelink)، quickstart مصوّر (nexhub)، لوحة البيانات الوصفية (BASIRAH). وعند اكتمال الأسبوع الثاني تُحدَّث [scorecard.md](scorecard.md) بأرقام الجاهزية الجديدة — والقاعدة باقية: **لا رقم بلا دليل**.
+
+---
+
+## 8) لوحة الأسبوع الثاني — تقدّم مباشر
+
+- [x] nexus-core: **trace logs معيارية** — `src/observability/trace.py` (stdlib فقط، خيط-آمن، best-effort، تدوير 5MiB، بلا PII): كل تشغيل وكيل/مجلس/موجّه يكتب سطر JSON بالحقول الإلزامية `ts/agent/tool/duration_ms/outcome` في `runs/trace.jsonl` + ربط نقاط النهاية الخمس + `/api/trace/recent` + قسم أثر في `/dashboard` + `make trace-tail` — **20 اختبار انحدار (عقد الحقول، تزامن 8×25، تدوير، أسطر تالفة، ربط ok/error/400)؛ البوابة الكاملة خضراء: 3,762 passed / 28 skipped، coverage ≥95%** (`make check` كاملة) — commit [`eb6ba97`](https://github.com/tibatechapp-ship-it/nexus-core/commit/eb6ba97)
+- [ ] Rasan: صفحة demo عامة + E2E (زائر بحساب demo يرسل رسالة)
+- [ ] lifelink: حزمة ثقة المشغّل `docs/trust/` (سياسة بيانات + احتفاظ + DPIA مبسطة)
+- [ ] nexhub: `docs/quickstart-ar.md` مصوّر (Golden path)
+- [ ] BASIRAH: لوحة البيانات الوصفية (عدد الوثائق، الكيانات، توزيع المواضيع، بحث تفاعلي)
+
+> **قاعدة اللوحة نفسها**: كل عنصر يُعلَّم ✓ فقط بدليل CI قابل للتشغيل — الأرقام أعلاه من تشغيل محلي مطابق لبيئة CI (`make check`)، ويتحول الدليل إلى CI أخضر مباشرة عند دفع commit `eb6ba97`.
