@@ -169,11 +169,11 @@
 <!-- LAST-UPDATED:START -->
 | المشروع | آخر دفعة (UTC) | فرع نشط |
 |---|---|---|
-| Rasan | 2026-10-31 | main |
+| Rasan | 2026-11-01 | main |
 | lifelink-app | 2026-10-31 | main |
 | pharma-sdl | 2026-10-30 | main |
 | nexhub | 2026-10-31 | main |
-| nexus-core | 2026-10-31 | main |
+| nexus-core | 2026-11-01 | main |
 | chess-cli | 2026-10-30 | main |
 | raqib | 2026-10-30 | main |
 <!-- LAST-UPDATED:END -->
