@@ -171,9 +171,9 @@
 |---|---|---|
 | Rasan | 2026-11-01 | main |
 | lifelink-app | 2026-10-31 | main |
-| pharma-sdl | 2026-11-02 | main |
+| pharma-sdl | 2026-11-04 | main |
 | nexhub | 2026-10-31 | main |
-| nexus-core | 2026-11-03 | main |
+| nexus-core | 2026-11-04 | main |
 | chess-cli | 2026-10-30 | main |
 | raqib | 2026-10-30 | main |
 <!-- LAST-UPDATED:END -->
