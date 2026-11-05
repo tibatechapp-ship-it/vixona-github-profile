@@ -170,11 +170,11 @@
 | المشروع | آخر دفعة (UTC) | فرع نشط |
 |---|---|---|
 | Rasan | 2026-11-05 | main |
-| lifelink-app | 2026-10-31 | main |
+| lifelink-app | 2026-11-05 | main |
 | pharma-sdl | 2026-11-05 | main |
 | nexhub | 2026-11-05 | main |
 | nexus-core | 2026-11-05 | main |
-| chess-cli | 2026-10-30 | main |
+| chess-cli | 2026-11-05 | main |
 | raqib | 2026-11-05 | main |
 <!-- LAST-UPDATED:END -->
 
