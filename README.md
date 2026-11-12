@@ -169,7 +169,7 @@
 <!-- LAST-UPDATED:START -->
 | المشروع | آخر دفعة (UTC) | فرع نشط |
 |---|---|---|
-| Rasan | 2026-11-05 | main |
+| Rasan | 2026-11-12 | main |
 | lifelink-app | 2026-11-05 | main |
 | pharma-sdl | 2026-11-10 | main |
 | nexhub | 2026-11-05 | main |
