@@ -174,7 +174,7 @@
 | pharma-sdl | 2026-11-12 | main |
 | nexhub | 2026-11-12 | main |
 | nexus-core | 2026-11-12 | main |
-| chess-cli | 2026-11-05 | main |
+| chess-cli | 2026-11-12 | main |
 | raqib | 2026-11-05 | main |
 <!-- LAST-UPDATED:END -->
 
