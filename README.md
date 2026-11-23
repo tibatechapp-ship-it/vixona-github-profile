@@ -169,13 +169,13 @@
 <!-- LAST-UPDATED:START -->
 | المشروع | آخر دفعة (UTC) | فرع نشط |
 |---|---|---|
-| Rasan | 2026-11-12 | main |
+| Rasan | 2026-11-23 | main |
 | lifelink-app | 2026-11-05 | main |
-| pharma-sdl | 2026-11-12 | main |
-| nexhub | 2026-11-19 | main |
+| pharma-sdl | 2026-11-23 | main |
+| nexhub | 2026-11-23 | main |
 | nexus-core | 2026-11-23 | main |
 | chess-cli | 2026-11-19 | main |
-| raqib | 2026-11-05 | main |
+| raqib | 2026-11-23 | main |
 <!-- LAST-UPDATED:END -->
 
 > 🤖 هذا الجدول يتحدّث **تلقائياً** كل 6 ساعات عبر GitHub Actions (`.github/workflows/update-readme.yml`) — لا تعدّله يدوياً.
