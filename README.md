@@ -173,7 +173,7 @@
 | lifelink-app | 2026-11-05 | main |
 | pharma-sdl | 2026-11-23 | main |
 | nexhub | 2026-11-23 | main |
-| nexus-core | 2026-11-25 | main |
+| nexus-core | 2026-11-26 | main |
 | chess-cli | 2026-11-19 | main |
 | raqib | 2026-11-23 | main |
 <!-- LAST-UPDATED:END -->
